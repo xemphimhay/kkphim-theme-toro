@@ -1,0 +1,32 @@
+{
+  "name": "ggg3/kkphim-theme-toro",
+  "description": "KKPhim's toro theme",
+  "type": "library",
+  "authors": [
+    {
+      "name": "ggg3",
+      "email": "contact.animehay@gmail.com"
+    }
+  ],
+  "require": {
+    "laravel/framework": "^6|^7|^8",
+    "ckfinder/ckfinder-laravel-package": "v3.5.2.1",
+    "haiau009/kkphim-core": "^1.0.0"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "KKPhim\\ThemeToro\\": "src/",
+      "KKPhim\\ThemeToro\\Database\\Factories\\": "database/factories/",
+      "KKPhim\\ThemeToro\\Database\\Seeders\\": "database/seeders/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "KKPhim\\ThemeToro\\ThemeToroServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "stable"
+}
